@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "flip_fast_render"
+version = "1.0.0"
+name = "FLIP Fast Render"
+tagline = "High-speed NumPy + foreach_set cache loader and render accelerator for FLIP Fluids"
+maintainer = "YPF Render Pipeline"
+type = "add-on"
+tags = ["Animation", "Physics", "Render"]
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+platforms = ["windows-x64", "macos-x64", "macos-arm64", "linux-x64"]
+
+[permissions]
+files = "Read FLIP Fluids cache files (.bobj, .wwp, .wwi, .wwf, .ffp3, .bbox, .json)"
